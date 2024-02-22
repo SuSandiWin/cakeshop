@@ -1,0 +1,734 @@
+/*
+.*{
+	margin:0;
+	padding:0;
+}*/
+.div_head{
+	width:100%;
+	height:250px;
+	/*background-color:red;*/
+	background-image:url('../assets/img/header.jpg');
+	color:white;
+}
+.div_head1{
+	float:left;
+	margin-left: 90px;
+
+}
+.div_head1 h2,.span1{
+	margin-left:80px;
+	margin-top:90px;
+	line-height: 0.01;
+	font-family: 'Merienda', cursive;
+	font-size:33px;
+
+
+}
+.div_head1 .span1{
+	font-size: 16px;
+}
+.div_head2{
+	text-align: right;
+	float:right;
+	margin-top: 90px;
+
+}
+.div_head2 .login:hover{
+	color:#34e1eb;
+}
+.div_head2 .reg:hover{
+	color:#34e1eb;
+}
+.div_head2 .login,.reg{
+	text-decoration: none;
+	color:white;
+	margin-right:20px;
+}
+.div_head2 .search{
+	width:300px;
+	height:30px;
+	background-color:#34e1eb;
+	margin-right:140px;
+	color:white;
+	border-radius:10px;
+	font-size:15px;
+	margin-left:10px;
+	opacity:0.8;
+
+}
+
+.container{
+	font-family: 'Merienda', cursive;
+}
+
+/*Nav Bar*/
+.container nav{
+	width:100%;
+	height:73px;
+	background-color:white;
+	opacity: 0.5;
+
+
+}
+.container nav ul{
+	width:100%;
+	height:100%;
+	margin:0;
+	list-style:none;
+}
+
+.container nav ul li .menu_text:hover{
+	color:black;	
+
+}
+.container nav ul li.li1:hover{
+	box-shadow: inset 0 5px #34e1eb;
+}
+.container nav ul li{
+	width:6%;
+	float:left;
+	text-align: center;
+	padding:23px 45px;
+	cursor:pointer;
+
+}
+.container nav ul li .menu_text{
+	color:black;
+	font-size: 19px;
+	text-decoration: none;
+}
+.container nav ul li ul.sub_nav{
+	top:34%;
+	left:13.5%;
+	width:9.5%;
+	height: 42%;
+	position:absolute;
+	background-color: black;
+	display:none;
+	
+	/*margin-right: 10px;*/
+	/*float:left;*/
+	/*opacity: 2;*/
+
+}
+.container nav ul li ul .menu_sub{
+	color:white;
+	text-decoration: none;
+}
+
+.container nav ul li ul.sub_nav li{
+	color:blue;
+
+
+}
+
+.container nav ul li ul.sub_nav .menu_sub:hover{
+	color:#34e1eb;
+
+}
+
+.container nav ul li:hover ul.sub_nav{
+	display:block;
+
+}
+/*.div_menu{
+	height:50px;
+	margin-top:30px;
+	margin-left:170px;
+}
+
+.div_menu a:hover{
+	color:black;
+}
+.div_menu a{
+	
+	text-decoration: none;
+	color:grey;
+	margin-right: 50px;
+	font-size:15px;
+}*/
+
+.div_up{
+	width:100%;
+	height:200px;
+	/*margin-top:75px;
+	margin-left: 170px;*/
+	/*border:1px solid red;*/
+}
+
+.div_up1{
+	margin-top: 50px;
+	margin-left:170px;
+	float:left;
+}
+.div_up1 .a1,.a2{
+	line-height: 4;
+	padding:10px 40px;
+	text-decoration: none;
+	color:white;
+	font-size: 17px;
+	font-family: 'Architects Daughter', cursive;
+}
+.div_up .div_up1 label{
+	font-family: 'Architects Daughter', cursive;
+	font-size:18px;
+}
+
+.div_up1 .a1{
+	background-color:#34e1eb;
+}
+
+.div_up1 .a2{
+	background-color: black;
+}
+
+label{
+	margin-left: 10px;
+
+}
+
+.div_up2{
+	width:450px;
+	height:150px;
+	background-image: url('../assets/img/discount_cake.jpeg');
+	background-position: right;
+	background-size: 480px 250px;
+	background-repeat: no-repeat;
+	border:1px solid grey;
+	border-radius:10px;
+	color:black;
+	/*background-color: yellow;*/
+	float:right;
+	margin-top: 50px;
+	margin-right: 120px;
+
+
+}
+.div_up2 .summer{
+	font-size:35px;
+	text-align: center;
+	line-height: 3.5;
+	margin-right: 70px;
+	margin-left: 20px;
+	font-family: 'Lobster Two', cursive;
+}
+
+.div_up2 .buy:hover{
+	color:#34e1eb;
+	padding:12px 22px;
+}
+.div_up2 .buy{
+	text-decoration: none;
+	padding:10px 20px;
+	background-color: black;
+	color:white;
+	border-radius: 10px;
+
+
+	
+}
+
+.div_left{
+	/*width:100%;*/
+	/*margin-top:80px;*/
+	width:700px;
+	height:480px;
+	/*border:1px solid red;*/
+	float:left;
+}
+/*.div_left .div_left1 .slidebox .sliceimage{
+	background-repeat: no-repeat;
+	background-size:500px;
+	background-position: center
+}*/
+
+/*Slider image*/
+.div_left .div_left1{
+	width:450px;
+	overflow:hidden;
+	z-index: -1;
+	position: relative;
+
+}
+
+.div_left .div_left1 .slidebox{
+	position:relative;
+	width:1800px;
+	animation-name:Jamal;
+	animation-duration:15s;
+	animation-iteration-count: infinite;
+
+}
+
+.div_left .div_left1 .slidebox img{
+	float:left;
+}
+
+@keyframes Jamal{    10*100/20
+	0%{                 1,2,3,4,5
+						6.7.8,9,10
+		left:0px;
+	}
+	20%{
+		left:0px;
+	}
+	25%{
+		left:-450px;
+	}
+	45%{
+		left:-450px;
+	}
+	50%{
+		left:-900px;
+	}
+	70%{
+		left:-900px;
+	}
+	75%{
+		left:-1350px;
+	}
+	95%{
+		left:-1350px;
+	}
+	/*100%{
+		left:-1800px;
+	}*/
+}
+
+.div_left .div_left1{
+	width:450px;
+	height:400px;
+	/*background-color: blue;	*/
+	/*background-image:url('../assets/img/best_seller.jpeg');*/
+	/*background-repeat: no-repeat;
+	background-position:center;*/
+	/*background-size:500px;*/
+	margin-top:40px;
+	margin-left:150px;
+}
+
+.div_left .div_l1_s{
+	color:red;
+	font-size: 18px;
+	margin-left:150px;
+	font-weight: bold;
+	line-height: 2;
+}
+
+.div_left .div_left2{
+	width:500px;
+	height:350px;
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: 150px;
+	font-family: 'Unna', serif;
+	line-height: 0.5;
+}
+.div_left .div_left2 p{
+	font-size: 25px;
+}
+
+
+.div_center{
+	/*width:30%;*/
+	width:500px;
+	height: 900px;
+	/*border:1px solid red;*/
+	float:left;
+}
+
+.div_center1{
+	width:400px;
+	height: 250px;
+	/*background-color: black;*/
+	background-image:url('../assets/img/maccha.jpeg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:420px 250px;
+	margin-top:40px;
+	margin-left: 50px;
+}
+
+.div_center3{
+	width:400px;
+	height: 230px;
+	/*background-color: black;*/
+	background-image: url('../assets/img/yogurt.jpeg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:420px 250px;
+	margin-top:40px;
+	margin-left: 50px;
+}
+
+.div_center .div_c1_s,.div_c1_s1{
+	color:red;
+	font-size: 20px;
+	margin-left:50px;
+	font-weight: bold;
+	line-height:2;
+
+}
+.div_center .div_center2,.div_center4{
+	width:400px;
+	height:100px;
+	font-size:18px;
+	font-weight: bold;
+	margin-left: 50px;
+	font-family: 'Unna', serif;
+}
+.div_right{
+
+	width:596px;
+	height:900px;
+	/*border:1px solid red;*/
+	float:left;
+}
+
+.div_right .div_right_p1{
+	width:100px;
+	height: 100px;
+	/*background-color: yellow;*/
+	background-image: url('../assets/img/slice_bread_dog.jpeg');
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size:110px 100px;
+	margin-left: 30px;
+	margin-top: 40px;
+	float:left;
+}
+.div_right .div_right_p2{
+	width:100px;
+	height: 100px;
+	/*background-color: yellow;*/
+	background-image: url('../assets/img/chocholate.jpeg');
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size:120px 110px;
+	margin-left: 30px;
+	margin-top: 40px;
+	float:left;
+}
+.div_right .div_right_p3{
+	width:100px;
+	height: 100px;
+	/*background-color: yellow;*/
+	background-image: url('../assets/img/coffee.jpeg');
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size:140px 110px;
+	margin-left: 30px;
+	margin-top: 40px;
+	float:left;
+}
+.div_right .div_right_p4{
+	width:100px;
+	height: 100px;
+	/*background-color: yellow;*/
+	background-image: url('../assets/img/burger.jpeg');
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size:150px 110px;
+	margin-left: 30px;
+	margin-top: 40px;
+	float:left;
+}
+
+.div_right .div_right_p5{
+	width:100px;
+	height: 100px;
+	/*background-color: yellow;*/
+	background-image: url('../assets/img/donut.jpeg');
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size:130px 130px;
+	margin-left: 30px;
+	margin-top: 40px;
+	float:left;
+}
+
+.div_right .div_right_l1,.div_right_l2,.div_right_l3,.div_right_l4,.div_right_l5{
+	width:440px;
+	height: 100px;
+	font-size: 15px;
+	margin-right:10px;
+	margin-top: 40px;
+	float:right;
+	font-family: 'Unna', serif;
+}
+
+.div_right span{
+	color:red;
+}
+
+.div_right p{
+	color:black;
+}
+.div_right hr{
+	margin-top:170px;
+	width:500px;
+}
+.div_bottom{
+	width:100%;
+	height:500px;
+	/*border:1px solid red;*/
+	clear:both;
+
+}
+.div_bottom1 h2{
+	margin:0;
+	padding:20px;
+	text-align: center;
+	background-color: #34e1eb;
+	color:white;
+	font-family: 'Merienda', cursive;
+}
+
+
+
+.div_bottom2{
+	width:100%;
+	height: 400px;
+	margin:0;
+	padding: 0;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	
+}
+.div_bottom2 .div_cakes a:hover{
+	width:350px;
+	height: 350px;
+}
+
+.div_bottom2 .div_cakes a{
+	display:block;
+	width:300px;
+	height: 300px;
+	margin-right: 30px;
+	/*background-color: blue;*/
+	background-image: url('../assets/img/cake2.jpeg');
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size:300px 380px;
+}
+
+/*.div_bottom .div_cakes{
+	width:300px;
+	height:300px;
+	background-color:blue;
+}*/
+
+.div_bottom2 .div_bread a:hover{
+	width:350px;
+	height:350px;
+}
+.div_bottom2 .div_bread a{
+	display: block;
+	width:300px;
+	height:300px;
+	margin-right: 30px;
+	/*background-color:red;*/
+	background-image: url('../assets/img/bread.jpeg');
+	background-repeat: no-repeat;
+	background-position:left;
+	background-size: 300px 320px;
+}
+
+
+.div_bottom2 .div_capcakes a:hover{
+	width:350px;
+	height: 400px;
+}
+.div_bottom2 .div_capcakes a{
+	display: block;
+	width:300px;
+	height:300px;
+	margin-right: 30px;
+	/*background-color:blue;*/
+	background-image:url('../assets/img/cupcake.jpeg');
+	background-repeat: no-repeat;
+	background-position:left;
+	background-size: 300px 300px;
+}
+
+.div_bottom2 .div_ic a:hover{
+	width:350px;
+	height: 350px;
+}
+
+.div_bottom2 .div_ic a{
+	display: block;
+	width:300px;
+	height:300px;
+	margin-right: 30px;
+	/*background-color:red;*/
+	background-image: url('../assets/img/ice_cream1.jpeg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:280px 300px;
+}
+
+
+.div_bottom2 .div_juice a:hover{
+	width:350px;
+	height: 350px;
+}
+.div_bottom2 .div_juice a{
+	display: block;
+	width:300px;
+	height:300px;
+	margin-right: 30px;
+	/*background-color:blue;*/
+	background-image:url('../assets/img/juice.jpeg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:290px 300px;
+}
+
+
+
+.div_reviews{
+	margin:0;
+	padding:0; 
+	width:100%;
+	height:250px;
+	background-color: white;
+
+}
+
+.div_reviews h2{
+	margin:0;
+	padding:20px;
+	color:black;
+	text-align: center;
+	font-family: 'Merienda', cursive;
+}
+
+/*.div_reviews p{
+	
+	width:300px;
+	height: 20px;
+	margin-left: 750px;
+	text-align: center;
+	background-color: blue;
+}*/
+
+.div_reviews .div_reviews_container{
+	width:500px;
+	height:180px;
+	margin:0;
+	margin-left: 600px;
+	float:left;
+	/*background-color: grey;*/
+
+}
+
+.div_reviews .div_reviews_container .review1{
+	width:300px;
+	height:30px;
+	text-align: center;
+	border-radius:20px;
+	background-color: white;
+	border:1px solid green;
+	line-height: 2;
+	margin-bottom: 15px;
+	
+}
+.div_reviews .div_reviews_container .review2{
+	width:300px;
+	height:30px;
+	text-align: center;
+	border-radius:20px;
+	background-color: white;
+	border:1px solid green;
+	line-height: 2;
+	margin-bottom: 15px;
+	
+}
+.div_reviews .div_reviews_container .review3{
+	width:300px;
+	height:30px;
+	text-align: center;
+	border-radius:20px;
+	background-color: white;
+	border:1px solid green;
+	line-height: 2;
+	margin-bottom: 15px;
+}
+
+/*.div_reviews .add_review{
+	float:right;
+}*/
+
+.div_reviews .add_review textarea[name='reviewing']{
+	width:200px;
+	height:100px;
+	border-radius: 20px;
+	text-align: center;
+	
+}
+
+.div_reviews .add_review input[type='submit']:hover{
+	color:black;
+	width:90px;
+	height:40px;
+	background-color:#34e1eb;
+}
+.div_reviews .add_review input[type='submit']{
+	width:80px;
+	height: 30px;
+	border-radius: 30px;
+	text-align: center;
+	background-color: white;
+	
+}
+
+.div_contact{
+	width:100%;
+	height:240px;
+	margin:0;
+	padding:0;
+	
+	background-color: grey;
+
+}
+
+.div_contact h2{
+	margin:0;
+	text-align: center;
+	padding:20px;
+	font-family: 'Merienda', cursive;
+}
+
+.div_contact a:hover{
+	background-color:#34e1eb ;
+}
+
+.div_contact a{
+	width:80px;
+	height: 20px;
+	text-decoration: none;
+	color:black;
+	border-radius:10px;
+	
+	padding:10px;
+	border:1px solid black;
+	display:block;
+}
+
+.div_footer{
+	width:100%;
+	height:100px;
+	margin:0;
+	background-color: grey;
+	font-family: 'Merienda', cursive;
+}
+
+.div_footer .foot{
+	margin:0;
+	padding:30px;
+	color:white;
+	font-size: 15px;
+	display:block;
+}
